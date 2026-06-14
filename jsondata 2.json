@@ -1,0 +1,82 @@
+{
+  "platform": "ShopEase",
+  "region": "Asia",
+  "users": [
+    {
+      "user_id": 101,
+      "profile": {
+        "name": {
+          "first": "Rahul",
+          "last": "Patil"
+        },
+        "age": 25,
+        "premium": true
+      },
+      "orders": [
+        {
+          "order_id": "O1001",
+          "amount": 2500,
+          "items": [
+            {
+              "product": "Shoes",
+              "category": "Fashion",
+              "price": 2000
+            },
+            {
+              "product": "Socks",
+              "category": "Fashion",
+              "price": 500
+            }
+          ],
+          "payment": {
+            "method": "UPI",
+            "status": "Completed"
+          }
+        },
+        {
+          "order_id": "O1002",
+          "amount": 1500,
+          "items": [
+            {
+              "product": "Backpack",
+              "category": "Accessories",
+              "price": 1500
+            }
+          ],
+          "payment": {
+            "method": "Card",
+            "status": "Pending"
+          }
+        }
+      ]
+    },
+    {
+      "user_id": 102,
+      "profile": {
+        "name": {
+          "first": "Sneha",
+          "last": "Joshi"
+        },
+        "age": 28,
+        "premium": false
+      },
+      "orders": [
+        {
+          "order_id": "O1003",
+          "amount": 3000,
+          "items": [
+            {
+              "product": "Watch",
+              "category": "Electronics",
+              "price": 3000
+            }
+          ],
+          "payment": {
+            "method": "NetBanking",
+            "status": "Completed"
+          }
+        }
+      ]
+    }
+  ]
+}
